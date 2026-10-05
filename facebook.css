@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: white;
+}
+
+#box-1 {
+    width: 65.5%;
+    height: 100vh;
+    position: relative;
+    background: #fff;
+}
+
+#box-1 img {
+    position: absolute;
+    width: 750px;
+    max-width: 60%;
+    height: auto;
+    left: 45%;
+    top: 20%;
+    bottom: 70%;
+}
+
+#box-1 h1 {
+    position: absolute;
+    left: 30px;
+    bottom: 45px;
+    font-size: 56px;
+    font-family: sans-serif;
+}
+
+#you-love {
+    color: #0866ff;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100vh;
+    background: #ddd;
+}
+
+#box-2 {
+    width: 34.5%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 7%;
+}
+
+    h2 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+
+    input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #b7b7b7;
+    border-radius: 15px;
+    padding: 0 15px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 11px;
+}
+
+#box-2 input:focus {
+    border-color: #0866ff;
+}
+
+#log-in {
+    width: 100%;
+    height: 41px;
+    border: none;
+    border-radius: 25px;
+    background: #0866ff;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#log-in:hover {
+    background: #075de0;
+}
+
+#forgotten-pass {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-bottom: 60px;
+}
+
+#Create-account-butt {
+    width: 100%;
+    height: 41px;
+    border: 1px solid #0866ff;
+    border-radius: 25px;
+    background: white;
+    color: #0866ff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#Create-account-butt:hover {
+    background: #f0f6ff;
+}
+
+#meta {
+    width: 30px;
+    height: auto;
+    margin-top: 14px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+#box-2 h3 {
+    font-size: 18px;
+    margin-top: -24px;
+    margin-left: 50px;
+    align-self: center;
+    font-family: sans-serif;
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1629px) {
+
+    #box-1 h1 {
+        font-size: 50px;
+        left: 28px;
+        bottom: 40px;
+    }
+
+    #box-1 img {
+        width: 590px;
+    }
+
+    #box-2 {
+        padding: 0 6%;
+    }
+}
+@media only screen and (max-width: 1510px){
+    
+    #box-1 img {
+        width: 590px;
+        left: 41%;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+
+    #container {
+        flex-direction: column;
+    }
+
+    #box-1 {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    #box-1 h1 {
+        font-size: 40px;
+        left: 25px;
+        bottom: 25px;
+    }
+
+    #box-1 img {
+        width: 450px;
+    }
+
+    #box-2 {
+        width: 100%;
+        height: auto;
+        min-height: 45vh;
+        padding: 40px 15%;
+    }
+}
+    @media only screen and (max-width: 768px) {
+          #box-1 {
+        height: 25vh;
+    }
+
+    #box-1 img {
+        display: none;
+    }
+
+    #box-1 h1 {
+        display: none;
+    }
+
+    #box-2 {
+        width: 100%;
+        min-height: 55vh;
+        padding: 30px 25px;
+    }
+
+    #box-2 h2 {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    input {
+        height: 52px;
+    }
+    }
+
+@media only screen and (max-width: 600px) {
+
+    #box-1 {
+        height: 25vh;
+    }
+
+    #box-1 img {
+        display: none;
+    }
+
+    #box-1 h1 {
+        display: none;
+    }
+
+    #box-2 {
+        width: 100%;
+        min-height: 55vh;
+        padding: 30px 25px;
+    }
+
+    #box-2 h2 {
+        font-size: 16px;
+    }
+
+    #box-2 input {
+        height: 52px;
+    }
+}
