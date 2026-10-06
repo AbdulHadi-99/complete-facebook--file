@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+#signup {
+    width: 485px;
+    margin: 35px auto 0;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+#signup > a:first-child {
+    color: #65676b;
+    text-decoration: none;
+    display: block;
+    width: 30px;
+    margin-bottom: 8px;
+}
+
+#meta {
+    width: 20px;
+    height: 14px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.metaheading {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 3px;
+    font-family: sans-serif;
+}
+
+#main-heading {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-family: sans-serif;
+}
+
+#first-para {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 14px;
+    font-family: sans-serif;
+}
+
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+#name-head {
+    margin-bottom: 8px;
+    font-family: sans-serif;
+}
+
+#name-in{ 
+    width: 237px;
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    outline: none;
+}
+#Surname-in{
+    width: 237px;
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+#Surname-in {
+    margin-left: 6px;
+}
+
+#date-head {
+    margin-top: 21px;
+    margin-bottom: 9px;
+}
+
+    #day{
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #606770;
+    background-color: white;
+    outline: none;
+}  
+    #month{
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #606770;
+    background-color: white;
+    outline: none;
+}
+#year {
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #606770;
+    background-color: white;
+    margin-top: -80px;
+    margin-right: -500px;
+}
+
+#day {
+    width: 153px;
+}
+
+#month {
+    width: 153px;
+    margin-left: 9px;
+}
+
+#year {
+    width: 153px;
+    margin-left: 9px;
+}
+
+#gender-head {
+    margin-top: 21px;
+    margin-bottom: 9px;
+}
+
+#Gender {
+    width: 100%;
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #606770;
+    background-color: white;
+    outline: none;
+}
+
+#mobile-head {
+    margin-top: 17px;
+    margin-bottom: 9px;
+}
+
+#mobile-in {
+    width: 100%;
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+#contact {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+#contact a {
+    color: #0866ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#pass-head {
+    margin-bottom: 9px;
+}
+
+#pass-in {
+    width: 100%;
+    height: 53px;
+    border: 1px solid #ccd0d5;
+    border-radius: 15px;
+    padding: 0 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+#rd-last {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 27px;
+    margin-bottom: 10px;
+}
+
+#rf-last {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 16px;
+}
+
+#sub-but {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+  #name-in:focus{
+    border: 2px solid #1877f2;
+}
+
+   #Surname-in:focus{
+    border: 2px solid #1877f2;
+}
+
+   #mobile-in:focus{
+    border: 2px solid #1877f2;
+}
+
+   #pass-in:focus{
+    border: 2px solid #1877f2;
+}
+
+   select:focus {
+    border: 2px solid #1877f2;
+}
+
+#sub-but:hover {
+    background-color: #0759df;
+}
+
+#all-but {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #0866ff;
+    border-radius: 20px;
+    background-color: white;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #signup {
+        width: 100%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    #name-in,
+    #Surname-in {
+        width: calc(50% - 5px);
+    }
+
+    #Surname-in {
+        margin-left: 6px;
+    }
+
+    #day,
+    #month,
+    #year {
+        width: calc(33.33% - 7px);
+    }
+
+    #month {
+        margin-left: 5px;
+    }
+
+    #year {
+        margin-left: 5px;
+    }
+
+    #main-heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #signup {
+        padding: 15px;
+    }
+
+    #name-in,
+    #Surname-in {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #Surname-in {
+        margin-top: 8px;
+    }
+
+    #day,
+    #month,
+    #year {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+}
